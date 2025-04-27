@@ -1,0 +1,6 @@
+I adjusted the number of items to be a random integer between 1-20 to replicate a typical shopping experience. I adjusted the shopping time based on the number of items picked. It seems logical that the more items someone picks up, 
+the more time they would spend shopping / in the store. I also edited the checkout time in a similar way. If the number of items was 15+, it took the checker
+2 minutes to ring up all the items. I adjusted customer arrival to be 1 customer per minute. I wanted to do more with this and make it more dynamic,
+I just could not figure out how to create a function where there would be a busy period and a slow period, and the customersarrived would change based upon
+that. The number of checkers play the biggest role on the waitTime and idleTime. The more checkers, the more idle time, and the less customers still
+waiting to be checked out after 180 minutes. 
